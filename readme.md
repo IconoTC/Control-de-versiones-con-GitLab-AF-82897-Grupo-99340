@@ -38,7 +38,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 1 (Lunes 13 de Octubre 2026)
 
-<!-- - Presentación profesor / alumnos
+- Presentación profesor / alumnos
 - Introducción: Qué es un SCV y qué un SCV distribuido
 - IDE / Editor de código: Visual Studio Code (VSC)
 - Instalación de Git
@@ -49,33 +49,37 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Configuración de usuario: name, email
 
 - Primeros pasos con Git
-  - Primer repo (init), primer commit: readme.md & .gitignore
+  - Primer repo (init), 
+
+[descanso] 11:25 – 11:45
+
+- Primeros pasos con Git (2)
+  - Primer commit: readme.md & .gitignore
   - Anatomía de un repositorio git: working directory, staging area (index o cache) y repositorio (.git)
   - Estados de un archivo: untracked (U), tracked (modified (M), staged (A), committed)
-  - add/commit/reset y status/log/show -->
-
-[descanso] 11:20 – 11:40
-
-<!-- - Primeros pasos con Git (2)
-
+  - add/commit/reset y status/log/show 
   - Modificación de ficheros
   - Mensajes de commit
+- Comprobar el repositorio.
+  - git log
+  - git show
+  - git diff
+
+- Integración con otras herramientas y entornos
+  - Clientes gráficos
+  - Entornos de desarrollo
 
 - Anatomía de comandos típicos, referencias VS paths
 
   - HEAD, master, HEAD~1 y otras referencias útiles
   - Referencias por mensaje de commit (:/cadena)
 
+   
 - Integración con otras herramientas y entornos
-  - Clientes gráficos
-  - Entornos de desarrollo
   - Repositorios remotos: GitHub, GitLab, Bitbucket
     - remotes -> push / pull
-    - Clonar un repositorio: clone
-- Comprobar el repositorio.
-  - git log
-  - git show
-  - git diff
+
+<!-- 
 - Aliases
   - Qué son
   - Cómo crearlos desde el CLI: `git config --global alias.co checkout`
@@ -83,11 +87,16 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 - Ficheros Markdown
   - Qué son
   - Sintaxis básica
-  - Vista previa en VSC / GitHub / GitLab -->
+  - Vista previa en VSC / GitHub / GitLab 
+-->
 
 ### Día 2 (Martes 14 de Octubre 2026)
 
-<!-- - Git internals
+<!-- 
+- Integración con otras herramientas y entornos
+    - Clonar un repositorio: clone
+
+- Git internals
   - Estructura de un repositorio git: .git
   - Objetos git: blobs, trees, commits (y tags)
     - Creación y lectura de objetos
@@ -102,7 +111,9 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Eliminar de la Staging Area (Index)
   - Eliminar ficheros: git rm
   - Cambiar nombre de ficheros: git mv
-  - git blame -->
+  - git blame 
+
+-->
 
 [descanso] 11:20 – 11:40
 
