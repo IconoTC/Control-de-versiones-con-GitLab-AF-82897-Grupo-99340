@@ -36,6 +36,8 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ## Desarrollo del curso
 
+Ajustes / Seg y priv / Bloqueador automático 
+
 ### Día 1 (Lunes 13 de Octubre 2026)
 
 - Presentación profesor / alumnos
@@ -57,7 +59,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Primer commit: readme.md & .gitignore
   - Anatomía de un repositorio git: working directory, staging area (index o cache) y repositorio (.git)
   - Estados de un archivo: untracked (U), tracked (modified (M), staged (A), committed)
-  - add/commit/reset y status/log/show 
+  - add/commit/restore (reset) y status/log/show 
   - Modificación de ficheros
   - Mensajes de commit
 - Comprobar el repositorio.
@@ -71,19 +73,16 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 - Anatomía de comandos típicos, referencias VS paths
 
-  - HEAD, master, HEAD~1 y otras referencias útiles
+  - HEAD, main, HEAD~1 y otras referencias útiles
   - Referencias por mensaje de commit (:/cadena)
 
    
-- Integración con otras herramientas y entornos
-  - Repositorios remotos: GitHub, GitLab, Bitbucket
-    - remotes -> push / pull
+- Repositorios remotos: GitLab (GitHub, Bitbucket)
+   - remotes -> push / pull
+
+
 
 <!-- 
-- Aliases
-  - Qué son
-  - Cómo crearlos desde el CLI: `git config --global alias.co checkout`
-  - Crearlos editando el fichero de configuración: `git config --global -e`
 - Ficheros Markdown
   - Qué son
   - Sintaxis básica
@@ -92,20 +91,31 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 2 (Martes 14 de Octubre 2026)
 
-<!-- 
-- Integración con otras herramientas y entornos
-    - Clonar un repositorio: clone
+- Aliases
+  - Qué son
+  - Cómo crearlos desde el CLI: `git config --global alias.co checkout`
+  - Crearlos editando el fichero de configuración: `git config --global -e`
+
+- Repositorios remotos: GitLab
+  - remotes -> push / pull (review)
+  - Clonar un repositorio: clone
 
 - Git internals
   - Estructura de un repositorio git: .git
   - Objetos git: blobs, trees, commits (y tags)
     - Creación y lectura de objetos
     - Creación del árbol de objetos en un primer commit
+
+[descanso] 11:30 – 11:50
+
+- Git internals (continuación)
     - Modificación del árbol de objetos en commits sucesivos
   - Referencias: heads, ramas (tags y remotes)
-  - Taller: creación de un repositorio git "a mano"
-- Herramientas para preparar un buen commit en cualquier situación
 
+  <!-- - Taller: creación de un repositorio git "a mano" -->
+
+
+- Herramientas para preparar un buen commit en cualquier situación
   - Operaciones en la Staging Area (Index)
     - Añadir ficheros
     - Eliminar de la Staging Area (Index)
@@ -113,11 +123,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Cambiar nombre de ficheros: git mv
   - git blame 
 
--->
-
-[descanso] 11:20 – 11:40
-
-<!-- - Reescribiendo la historia
+- Reescribiendo la historia
 
   - Advertencia
   - git command --amend
@@ -128,6 +134,11 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
     - git checkout y reset a nivel de archivo (restore)
 
+<!-- 
+
+- Reescribiendo la historia (continuación)
+
+  - git reset
   - rebase interactivo (comentar por encima)
     - edit: modificando un commit
     - squash y fixup: fusionando commits
