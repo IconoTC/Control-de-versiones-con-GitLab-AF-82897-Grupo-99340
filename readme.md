@@ -38,7 +38,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 Ajustes / Seg y priv / Bloqueador automático 
 
-### Día 1 (Lunes 13 de Octubre 2026)
+### Día 1 (Martes 13 de Octubre 2026)
 
 - Presentación profesor / alumnos
 - Introducción: Qué es un SCV y qué un SCV distribuido
@@ -80,8 +80,6 @@ Ajustes / Seg y priv / Bloqueador automático
 - Repositorios remotos: GitLab (GitHub, Bitbucket)
    - remotes -> push / pull
 
-
-
 <!-- 
 - Ficheros Markdown
   - Qué son
@@ -89,7 +87,7 @@ Ajustes / Seg y priv / Bloqueador automático
   - Vista previa en VSC / GitHub / GitLab 
 -->
 
-### Día 2 (Martes 14 de Octubre 2026)
+### Día 2 (Miercoles 14 de Octubre 2026)
 
 - Aliases
   - Qué son
@@ -134,7 +132,8 @@ Ajustes / Seg y priv / Bloqueador automático
 
     - git checkout y reset a nivel de archivo (restore)
 
-<!-- 
+### Día 3 (Jueves 15 de Octubre 2026)
+
 
 - Reescribiendo la historia (continuación)
 
@@ -146,13 +145,11 @@ Ajustes / Seg y priv / Bloqueador automático
 
 - Otros comandos
 
-  - git clean
   - git revert
-  - git bisect -->
+  - git clean (comentado)
+  - git bisect (comentado)   
 
-### Día 3 (Miércoles 15 de Octubre 2026)
-
-<!-- - Trabajando en paralelo
+- Trabajando en paralelo
 
   - Ramas
     - Crear y seleccionar
@@ -162,50 +159,57 @@ Ajustes / Seg y priv / Bloqueador automático
     - Mover y renombrar ramas
   - Combinación de ramas: Merge y Rebase
 
+[descanso] 11:20 – 11:40
+
+- Trabajando en paralelo (2)
+
     - git merge
       - fast-forward
       - three-way merge
     - git rebase
 
-  - git stash
   - Resolución de conflictos
-  - git cherry-pick -->
 
-[descanso] 11:20 – 11:40
+  - git stash
+  - git cherry-pick 
 
-<!-- - Trabajando en paralelo (2)
-
+<!-- 
   - (Patches: Creación y aplicación)
+-->
+
+
   - Etiquetas (tags)
     - Tags anotadas y tags ligeros
     - Crear, listar, eliminar
 
 - Repositorios remotos
 
-  - Repositorios "bare"
-  - Clonar repositorios: git clone
-  - git remote
-  - git push
-    - push tags
+  - review de conceptos
+    - Repositorios "bare"
+    - Clonar repositorios: git clone
+    - git remote
+    - git push (origin main) 
+      - push tags
+
+
   - git pull
 
     - git fetch
     - git merge / git rebase
     - Conflictos
 
-  - Ramas remotas
+  <!-- - Ramas remotas
     - Seguimiento de ramas remotas (tracking branches)
     - Crear ramas locales a partir de ramas remotas: fetch + checkout / switch -c
     - Subir ramas locales a ramas remotas: -u
-    - Eliminar ramas remotas
-  - Pull requests (GitHub) / Merge requests (GitLab)
-    - Flujo de trabajo típico
-    - Revisión de código -->
-
-### Día 4 (Jueves 16 de Octubre 2026)
+    - Eliminar ramas remotas -->
+  
+### Día 4 (Viernes 16 de Octubre 2026)
 
 <!-- 
   - Pull requests (GitHub) / Merge requests (GitLab)
+    - Flujo de trabajo típico
+    - Revisión de código 
     - Resolución de conflictos en remoto
     - Buenas prácticas:
       - Actualizar la rama con la rama main antes de hacer el merge
@@ -219,6 +223,9 @@ Ajustes / Seg y priv / Bloqueador automático
     - Ship-Show-Ask
 
 - Buenas prácticas (citar)
+-->
+
+<!-- 
 
 - GitLab
   - Hosting de Repositorios
@@ -236,15 +243,21 @@ Ajustes / Seg y priv / Bloqueador automático
     - Comandos básicos
   - GitLab Pages
     - Configuración y uso
-    - Práctica: publicar nuestro repositorio demo -->
+    - Práctica: publicar nuestro repositorio demo 
+-->
+ 
 
 [descanso] 11:20 – 11:40
 
-<!-- - Integración continua / Entrega continua (CI/CD)
+<!-- 
+
+- Integración continua / Entrega continua (CI/CD)
   - Introducción a CI/CD
   - Configuración de un pipeline: stages y jobs
   - Artefactos
   - Variables
   - Despliegues: environments
 - Despliegues en GitLab
-  - Releases -->
+  - Releases 
+
+-->
